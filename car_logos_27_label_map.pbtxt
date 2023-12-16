@@ -20,63 +20,63 @@ item {
 }
 item {
   id: 6
-  display_name: "Mazda"
+  display_name: "Infiniti"
 }
 item {
   id: 7
-  display_name: "Mercedes"
+  display_name: "Mazda"
 }
 item {
   id: 8
-  display_name: "Mitsubishi"
+  display_name: "Mercedes"
 }
 item {
   id: 9
-  display_name: "Nissan"
+  display_name: "Mitsubishi"
 }
 item {
   id: 10
-  display_name: "Renault"
+  display_name: "Nissan"
 }
 item {
   id: 11
-  display_name: "Toyota"
+  display_name: "Renault"
 }
 item {
   id: 12
-  display_name: "Volkswagen"
+  display_name: "Toyota"
 }
 item {
   id: 13
-  display_name: "bmw"
+  display_name: "Volkswagen"
 }
 item {
   id: 14
-  display_name: "cadillac"
+  display_name: "bmw"
 }
 item {
   id: 15
-  display_name: "chevrolet"
+  display_name: "cadillac"
 }
 item {
   id: 16
-  display_name: "ford"
+  display_name: "chevrolet"
 }
 item {
   id: 17
-  display_name: "jeep"
+  display_name: "ford"
 }
 item {
   id: 18
-  display_name: "kia"
+  display_name: "jeep"
 }
 item {
   id: 19
-  display_name: "lexus"
+  display_name: "kia"
 }
 item {
   id: 20
-  display_name: "license-plate"
+  display_name: "lexus"
 }
 item {
   id: 21
