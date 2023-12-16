@@ -9,12 +9,11 @@ from config import get_cfg_defaults
 
 def info():
     tmp = OrderedDict()
-    tmp['description'] = 'Flickr logos 27 dataset'
-    tmp['url'] = 'http://image.ntua.gr/iva/datasets/flickr_logos/'
+    tmp['description'] = 'Car logos 27 dataset'
     tmp['version'] = '1.0'
-    tmp['year'] = '2022'
-    tmp['contributor'] = 'satojkovic'
-    tmp['data_created'] = '2022/08/03'
+    tmp['year'] = '2023'
+    tmp['contributor'] = 'Yohanes Amadeo Marvell'
+    tmp['data_created'] = '2023/12/16'
     return tmp
 
 
@@ -136,7 +135,7 @@ if __name__ == '__main__':
 
         js[query] = tmp
 
-    output_fn = 'flickr_logos_27_train.json' if args.mode == 'train' else 'flickr_logos_27_test.json'
+    output_fn = 'car_logos_27_train.json' if args.mode == 'train' else 'car_logos_27_test.json'
     if args.output_dir != '.' and not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
     with open(os.path.join(args.output_dir, output_fn), 'w') as f:
