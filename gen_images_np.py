@@ -37,7 +37,7 @@ def get_images(image_dir, annot):
 
 if __name__ == '__main__':
     # Load images and visualize
-    DATA_ROOT_DIR = 'Car_Logo_Dataset_27'
+    DATA_ROOT_DIR = '/content/DETR-Car-Logo-Detection2/Car_Logo_Dataset_27'
     IMAGE_DIR = os.path.join(DATA_ROOT_DIR, 'Car_Logo_Dataset_27_Images')
     TRAIN_ANNOT_FILE = os.path.join(
         DATA_ROOT_DIR, 'car_logos_27_dataset_training_set_annotation_cropped.txt')
