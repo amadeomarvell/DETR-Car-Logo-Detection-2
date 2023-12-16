@@ -3,7 +3,7 @@ from yacs.config import CfgNode
 
 _C = CfgNode()
 
-_C.DATASET_DIR = 'Car_Logo_Dataset_27'
+_C.DATASET_DIR = '/content/DETR-Car-Logo-Detection2/Car_Logo_Dataset_27'
 _C.IMAGE_DIR = os.path.join(_C.DATASET_DIR, 'Car_Logo_Dataset_27_Images')
 _C.ANNOT_FILE = os.path.join(
     _C.DATASET_DIR, 'Car Logo Dataset 27 Annotations DETR.txt')
