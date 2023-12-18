@@ -12,9 +12,9 @@ _C.CROPPED_ANNOT_FILE = os.path.join(
 _C.CROPPED_ANNOT_FILE_TEST = os.path.join(
     _C.DATASET_DIR, 'car_logos_27_dataset_test_set_annotation_cropped.txt')
 
-_C.CLASS_NAMES = ['Audi', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Mazda', 'Mercedes', 'Mitsubishi', 
-                  'Nissan', 'Renault', 'Toyota', 'Volkswagen', 'bmw', 'cadillac', 'chevrolet', 'ford', 'jeep', 
-                  'kia', 'lexus', 'license-plate', 'mini', 'porsche', 'ram', 'range-rover', 'subaru', 'suzuki', 'volvo']
+_C.CLASS_NAMES = ['Audi', 'Citroen', 'GMC', 'Honda', 'Hyundai', 'Infiniti', 'Mazda', 'Mercedes', 'Mitsubishi', 
+'Nissan', 'Renault', 'Toyota', 'Volkswagen', 'bmw', 'cadillac', 'chevrolet', 'ford', 'jeep', 'kia', 
+'lexus', 'mini', 'porsche', 'ram', 'range-rover', 'subaru', 'suzuki', 'volvo']
 
 
 def get_cfg_defaults():
